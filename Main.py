@@ -44,9 +44,9 @@ class Evaluate:
     Arguments:
       operand: The operand to be pushed.
     """
-     if len(self.stack)<self.size_of_stack:
-        self.top+=1
-        self.stack.append(operand)
+    if len(self.stack)<self.size_of_stack:
+       self.top+=1
+       self.stack.append(operand)
     
 
 
