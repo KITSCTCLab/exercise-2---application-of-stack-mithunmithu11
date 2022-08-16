@@ -93,7 +93,7 @@ class Evaluate:
     return self.pop()
 
 
-# Do not change the following code
+# Do not change the following cod
 postfix_expression = input()  # Read postfix expression
 tokens = postfix_expression.split()
 evaluate = Evaluate(len(tokens))
